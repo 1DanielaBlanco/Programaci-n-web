@@ -1,0 +1,80 @@
+	*{
+		margin:0;
+		padding:0;
+	}
+	body{
+		background: #FF9999;
+	}
+	header,section, footer, aside, nav, article, hgroup{
+		display: block;
+		border-spacing: 5px;
+	}
+	#agrupar{
+		width: 1000px;
+		margin: 40px auto;
+		text-align: left;
+	}
+	#cabecera{
+		background: #FFFBB9;
+		border: 1px solid #FF9999;
+		padding: 20px;
+		text-align: right;
+		border-radius: 20px;
+
+		/*-moz-box-shadow: rgb(150,150,150) 5px 5px;
+		-webkit-box-shadow:rgb(150,150,150) 5px 5px;
+		box-shadow: rgb(150,150,150) 5px 5px;
+		*/
+	}
+		#titulo{
+			font: bold 36px verdana, sans-serif;
+		}
+	#menu{
+		background: #CCCCCC;
+		padding: 5px 15px;
+		border-radius: 5px;
+	}
+	#menu li{
+		display: inline-block;
+		list-style: none;
+		padding: 5px;
+		font: bold 14px verdana, sans-serif;
+	}
+	#seccion{
+		float: left;
+		width: 660px;
+		margin: 20px;
+	}
+	#columna{
+		float: right;
+		width: 220px;
+		margin: 20px 0px;
+		padding: 20px;
+		background: #CCCCCC;
+	}
+	#pie{
+		clear: both;
+		text-align: center;
+		padding: 20px;
+		border-top: 2px solid #999999;
+	}
+	article{
+		background: #FFFBCC;
+		border: 1px solid #999999;
+		padding: 20px;
+		margin-bottom: 15px;
+	}
+	div{
+		background: white;
+		width: 100px;
+		margin: 20px;
+		padding: 20px;
+		border: 1px solid #FFF5EE;
+		/*
+		background: -webkit-linear-gradient(top, #FFFFFF, #006699);
+		background: -moz-linear-gradiente(top, #FFFFFF, #006699);
+		*/
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
