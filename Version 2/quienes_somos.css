@@ -1,0 +1,43 @@
+@font-face{
+    font-family: pompiere;
+    src: url("Pompiere-Regular.ttf");
+}
+body{
+    padding:0;
+    margin: 0;
+    text-align: center;
+    background: linear-gradient(rgba(222, 32, 148,.5),rgba(0, 0, 50, 0.3)),url(img/japanese-cherry-blossom-flower-vector_2453.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment: fixed;
+}
+#agrupar{
+    width: 1200px;
+    height: 850px;
+    margin: 30px auto;
+    background-color: rgba(255,255,255,0.4);
+    padding: 10px;
+}
+.info{
+    margin-top: 100px;
+    color: #51E;
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+
+}
+.info h1{
+    font-size: 40px;
+    line-height: 10px;
+
+}
+.info h2{
+    font-size: 20px;
+}
+
+#desc{
+    width: 600px;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 20px;
+
+}

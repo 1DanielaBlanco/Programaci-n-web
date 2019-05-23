@@ -1,0 +1,111 @@
+html {
+    height: 100vh;
+}
+@font-face{
+    font-family: pompiere;
+    src: url("Pompiere-Regular.ttf");
+}
+/*body {
+    padding: 100px;
+    margin: 0;
+    font-family: 'Fjalla One', sans-serif;
+    background: linear-gradient( #fff, #fefefe, #eaeaea);
+}*/
+
+body{
+    padding:100px;
+    margin: 0;
+    text-align: center;
+    background: linear-gradient(rgba(222, 32, 148,.5),rgba(0, 0, 50, 0.3)),url(img/japanese-cherry-blossom-flower-vector_2453.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment: fixed;
+}
+
+.accordion {
+    max-width: 990px;
+    background: rgba(0, 0, 0, 0.10);
+    height: 300px;
+    margin: 20px auto;
+    display: flex;
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.47);
+    flex-direction: row;
+    cursor: pointer;
+    margin-bottom: 100px;
+    
+}
+.box {
+    position: relative;
+    height: 100%;
+    flex: 1;
+    background-position: left;
+    background-size: cover;
+    transition: .7s;
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.47);
+}
+.box:hover{
+    flex: 7;
+    height: 400px;
+}
+.a1 {
+    background-image: url("img/5.jpg");
+}
+.a2 {
+    background-image: url("img/6.jpg");
+}
+.a3 {
+    background-image: url("img/8.jpg");
+}
+.a4 {
+    background-image: url("img/59.jpg");
+    color: #fff;
+}
+.a5 {
+    background-image: url("img/60.jpg"); 
+    color: #fff;
+}
+.a6 {
+    background-image: url("img/11.jpg"); 
+    color: #fff;
+}
+.a7 {
+    background-image: url("img/53.jpg");
+    color: #fff; 
+}
+p {
+    font-weight: normal;
+    font-family: 'Exo 2', sans-serif;
+}
+.text {
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+    padding: 10px;
+}
+.box:hover .text{
+    opacity:1;
+}
+#titulo {
+    width: 250px;
+    text-align: center;
+    margin: 10px auto 20px auto;
+    color: #51E;
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+}
+@media screen and (max-width: 800px){
+    body{
+        margin: 0;
+    }
+    .accordion {
+        flex-direction: column;
+        height: 700px;
+        box-shadow: none;
+    }
+    .box {
+        box-shadow: none;
+    }
+    .box:hover {
+        flex: 7;
+    }
+}

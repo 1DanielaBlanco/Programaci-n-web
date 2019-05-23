@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<meta charset="utf-8">
+<head>
+    <title>Contacto</title>
+    <link rel="stylesheet" type="text/css" href="form.css">
+    <link rel="stylesheet" typetheme="text/css" href="nav.css">
+    <link rel="stylesheet" typetheme="text/css" href="nav.css">
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+    <nav id="menu" class="navbar navbar-fixed-top">
+        <div class="" id="id-nav">
+                <!-- <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Flores&Follajes</a>
+                </div> -->
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="quienes_somos.html">Quiénes Somos</a></li>
+                <li><a href="Galeria.html">Galeria</a></li>
+                <li><a class="active" href="contacto.html">Contáctenos</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container" id=agrupar>
+        <div class="contact-title">
+            <h1>Flores & Follajes</h1>
+            <h2>¡Listos para servirte!</h2>
+        </div>
+
+        <div class="contact-form">
+            <form class="form-horizontal" id="contact-form" method="post" action="guardar.php">
+<!--                 <input type="text" name="name" class="form-control"
+                placeholder="Tú nombre" required><br>
+
+                <input type="email" name="email" class="form-control"
+                placeholder="Tú Email" required><br>
+
+                <textarea name="message" class="form-control"
+                rows="4" placeholder="Mensaje" required></textarea><br>
+
+                <input type="submit" class="form-control submit" value="Enviar"> -->
+            
+            <table align="center" width="700" height="350">
+               <!--  <thead>
+                    <tr>
+                        <h1>Flores & Follajes</h1>
+                        <h2>¡Listos para servirte!</h2>
+                    </tr>
+                </thead> -->
+                <tbody>
+                    <tr>
+                        <td>
+                            <input type="text" name="name" class="form-control"
+                placeholder="Tú nombre" required>
+                        </td>
+                    </tr>
+                    <tr>
+                      <td>
+                         <input type="email" name="email" class="form-control"
+                placeholder="Tú Email" required> 
+                      </td>  
+                    </tr>
+                    <tr>
+                      <td>
+                           <textarea name="message" class="form-control"
+                rows="4" placeholder="Mensaje" required></textarea><br>
+                      </td>  
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="submit" class="form-control submit" value="Enviar">
+                        </td>    
+                    </tr>
+                </tbody>
+            </table>
+
+            </form>
+
+        </div>
+    </div> 
+</body>
+</html> 

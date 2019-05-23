@@ -1,0 +1,48 @@
+@font-face{
+    font-family: pompiere;
+    src: url("Pompiere-Regular.ttf");
+}
+#pie{
+  height: 270px;
+  clear: both;
+  text-align: center;
+  padding: 20px;
+  border-top: 2px solid #999999;
+}
+#inf{
+  display: block;
+  top: 10px;
+  background: transparent;
+  padding: 15px 15px;
+  border-radius: 5px;
+  text-align: center;
+  text-transform: uppercase;
+}
+#inf li{
+  display: inline-block;
+  background: #FF9999;
+  list-style: none;
+  padding: 5px;
+  font: bold 14px verdana;
+  border-radius: 10px;
+  margin: 10px 130px;
+}
+
+aside#hrs,#drc{
+    display: inline-block;
+    width: 200px;
+    height: 150px;
+    /*margin: 10px auto;*/
+    /*border-style: dashed;*/
+}
+
+#hrs{
+  float: right;
+  margin: 0px 270px 0px 0px;
+  position: relative;
+}
+#drc{
+  float: left;
+  margin: 0px 0px 0px 275px ;
+  position: relative;
+}

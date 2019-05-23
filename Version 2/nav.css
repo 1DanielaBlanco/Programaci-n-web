@@ -1,0 +1,43 @@
+@font-face{
+    font-family: pompiere;
+    src: url("Pompiere-Regular.ttf");
+}
+	#menu {
+/*		top: 0px;*/
+		background: transparent;
+		/*padding: 0px;*/
+		/*border-radius: 5px;*/
+		text-align: center;
+		text-transform: uppercase;
+		position: -webkit-sticky;
+		display: block;
+	}
+		#menu ul {
+			display: block;
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			/*border: 1px solid #E7E7E7;*/
+			background-color: #f3f3f3;
+
+		}
+		#menu li {
+			float: left;
+			font-size: 15px
+		}
+		#menu li a{
+			display: block;
+			color: #666;
+			text-align: center;
+			padding: 15px 30px;
+			text-decoration: none;
+		}
+		#menu li a:hover:not(.active) {
+		  background-color: #ddd;
+		}
+		#menu li a.active {
+		  color: white;
+		  background-color: #4CAF50;
+		}
+

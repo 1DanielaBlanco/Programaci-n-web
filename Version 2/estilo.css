@@ -1,0 +1,92 @@
+	*{
+		margin:0;
+		padding:0;
+	}
+
+@font-face{
+    font-family: pompiere;
+    src: url("Pompiere-Regular.ttf");
+}
+	/*Fondo de la pagina*/
+	body{
+		/*background: #FF9999;*/
+		background: linear-gradient(rgba(222, 32, 148,.5),rgba(0, 0, 50, 0.3)),url(img/japanese-cherry-blossom-flower-vector_2453.jpg);
+		background-repeat: no-repeat;
+		background-position: left top;
+		background-attachment: fixed;
+/*		font-family: sans-serif;*/
+
+	}
+	header,section, footer, aside, article, hgroup{
+		display: block;
+		border-spacing: 5px;
+	}
+	h1,h2,h3{
+		font-family: pompiere;
+	}
+	h1{
+		font-size:50px;
+	}
+	#ti1{
+		text-align: center;
+	}
+	#agrupar{
+		width: 1150px;
+		margin: 51px auto;
+		text-align: left;
+		background-color: rgba(255,255,255,0.4);
+	}
+	header#cabecera{
+		/*background: #FFFFFF;*/
+		background-color: rgba(255,255,255,0.4);
+		/*background: rgba(255,99,71,0.8);*/
+		border-bottom: 3px solid #FF9999;
+		padding: 5px;
+		
+		border-radius: 20px;
+		height: 200px;
+		
+		text-align: right;
+		
+		/*-moz-box-shadow: rgb(150,150,150) 5px 5px;
+		-webkit-box-shadow:rgb(150,150,150) 5px 5px;
+		box-shadow: rgb(150,150,150) 5px 5px;
+		*/
+	}
+		#logo{
+			width: 180px;
+			height: 180px;
+			position: absolute;
+
+			border: none;
+		}
+
+		#titulo{
+			font-size: 100px;
+			margin-top: 90px;
+			/*margin-right: 250px;*/
+			text-align: center;
+		}
+
+	#seccion{
+		float: left;
+		width: 830px;
+		margin: 20px;
+	}
+
+	#columna{
+		float: right;
+		width: 205px;
+		height: 700px;
+		margin: 20px 20px;
+		position: static;
+	}
+	
+	article{
+		/*background: #FFFBCC;*/
+		border: 1px solid #999999;
+		border-style: dotted;
+		padding: 20px;
+		margin-bottom: 15px;
+	}
+	´
